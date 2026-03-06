@@ -6,6 +6,22 @@ setup = function() {
 
   // a handy dandy ruler across the top
   var x = 0;
+  var y = 0;
+
+  while(x < 400){
+    text(x,x,20);
+    x += 50;
+  }
+
+  while(y < 400){
+    text(0,y,0);
+    y += 50;
+  }
+
+  x=0; // reset variable values 
+  y=0; // reset variable values 
+
+  
   text(x, x, 20); 
   text(x+50, x+50, 20);
   text(x+100, x+100, 20);
